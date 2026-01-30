@@ -32,7 +32,7 @@ public class AppointmentController {
     // READ BY ID
     @GetMapping("/{id}")
     public Appointment getAppointmentById(@PathVariable Long id) {
-        return service.getAppointmentById(id);
+         return service.getAppointmentById(id);
     }
 
     // UPDATE
