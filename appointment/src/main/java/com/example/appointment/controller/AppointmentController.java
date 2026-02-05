@@ -14,7 +14,7 @@ public class AppointmentController {
     private final AppointmentService service;
 
     public AppointmentController(AppointmentService service) {
-        this.service = service;
+         this.service = service;
     }
 
     // CREATE
